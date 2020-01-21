@@ -1,0 +1,47 @@
+/* 
+
+button {
+    animation: fade 1s ease forwards;
+} */
+
+
+
+#parallaxObject3 {
+
+    /* animation: fade 1s ease infinite ; */
+
+}
+
+
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    50% {
+        opacity: 0;
+        pointer-events: none;
+    }
+    100% {
+        opacity: 1;
+        pointer-events: all;
+        
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1 ,1);
+    }
+    50% {
+        transform: scale(2,2);
+
+    }
+    100% {
+        transform: scale(1,1);
+
+        
+    }
+}
+
